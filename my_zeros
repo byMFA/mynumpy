@@ -1,0 +1,23 @@
+class MyNupmy:
+    def my_zeros(self,x,y=None):
+
+        if(y == None):
+            satir_sayisi=x
+            sutun_sayisi=x
+        
+        else:
+            satir_sayisi = x
+            sutun_sayisi = y
+        
+        zero_matrisi = []  #zero matrisini olsuturmay baslıyoruz
+
+        for a in range(0,satir_sayisi):
+            satir=[]
+
+            for b in range(0,sutun_sayisi):
+                satir.append(0)
+        
+            zero_matrisi.append(satir)
+
+
+        return zero_matrisi
